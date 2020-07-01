@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('table.table1');
+    return view('table.table');
 });
 
 Route::get('/data-table', function () {
